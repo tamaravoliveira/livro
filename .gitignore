@@ -1,0 +1,23 @@
+.gradle
+**/build/
+
+#Ignorar também os arquivos gradle GUI config
+gradle-app.setting
+
+!gradle-wrapper.jar
+
+#cache do projeto#
+.gradletasknamecache
+
+#os arquivos .class#
+*.class
+
+#arquivos de pacote#
+*.jar
+*.war
+*.ear
+
+.settings/*
+bin/*
+.project
+.classpath
