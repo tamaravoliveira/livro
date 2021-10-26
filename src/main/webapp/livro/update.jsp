@@ -14,8 +14,8 @@
         <form action="/livro/update" method="post">
             <input type="hidden" name="id" value="${livro.id}">
             <label for="titulo">Título</label>
-            <input type="text" name="titulo"/>
-
+            
+            <input type="text" name="titulo" value="${livro.titulo}"/>
             <a href="/livro/list">Voltar</a>
             <input type="submit" value="Salvar"/>
         </form>
