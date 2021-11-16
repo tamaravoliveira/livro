@@ -1,4 +1,4 @@
-package application.controllers;
+package application.controllers; //Pacote responsável por fazer a intermediação.
 
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
