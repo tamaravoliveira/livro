@@ -1,29 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
-
-        <title>Livros</title>
-      
+        <title>Novo Livro</title>
     </head>
     <body>
-        
-        <h1>Lista de livros, Tamara.</h1>
-        
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Título</th>
-                </tr>
-                <c:forEach var="l" items="${livros}">
-                    <tr>
-                        <td>${l.id}</td>
-                        <td>${l.titulo}</td>
-                    </tr>
+       <h1>Novo Livro/h1>
+           <hr>
+           <form action="insert" method="post">
+               <label for="titulo">titulo</label>
+               <input type="test" name="titulo"/>
+               <a href="/livro/list">Voltar</a>
+               input type="submit" value+"Salvar"/>
+           </form>
 
-                </c:forEach>
-        </table>
+        <h1>Lista de livros. Luciana Martessi</h1>
     </body>
 </html>
