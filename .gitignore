@@ -1,6 +1,9 @@
-#o arquivo gitignore serve "filtrar" quais arquivos devem ser ignorados ao fazer um commit.
+#o arquivo gitignore serve para ignorar quais arquivos devem ser ignorados ao fazer um commit.
+#é importante não gravar, pois são arquivos de execução.
 
-.gradle
+#linha 6 - todos os arquivos .gradle serão ignorados.
+#linha 7 - todos os diretórios que começam com build serão ignorados.
+.gradle 
 **/build/
 
 #Ignorar também os arquivos gradle GUI config
