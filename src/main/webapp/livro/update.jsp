@@ -15,7 +15,7 @@
 
                <input type="text" name="titulo" value="${livro.titulo}"/>
                <a href="/livro/list">Voltar</a>
-               <input type="submit" value="Salvar"/>
+               <input type="submit" value="Salvar" class="btn btn-success"/>
            </form>
     </body>
 </html>
