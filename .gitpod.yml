@@ -1,5 +1,5 @@
-image: gitpod/workspace-mysql
+image: gitpod/workspace-mysql #carrega a imagem do banco de dados
 
-tasks:
+tasks: #task que cria a base de dados e cada inicialização.
   - init: mysql -u root -e "CREATE DATABASE applicationdb"
 

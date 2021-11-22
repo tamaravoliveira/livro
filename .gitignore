@@ -1,3 +1,5 @@
+#o arquivo gitignore serve "filtrar" quais arquivos devem ser ignorados ao fazer um commit.
+
 .gradle
 **/build/
 
@@ -6,13 +8,13 @@ gradle-app.setting
 
 !gradle-wrapper.jar
 
-#cache do projeto#
+#cache do projeto
 .gradletasknamecache
 
-#os arquivos .class#
+#os arquivos .class
 *.class
 
-#arquivos de pacote#
+#arquivos de pacote
 *.jar
 *.war
 *.ear
