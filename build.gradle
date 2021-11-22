@@ -1,17 +1,17 @@
-plugins {
-    id 'org.springframework.boot' version '2.3.0.RELEASE'
-    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
-    id 'java'
+plugins { //plugins necessários para a execução.
+    id 'org.springframework.boot' version '2.3.0.RELEASE' //o Spring Boot facilita a criação de aplicativos baseados em Spring.
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE' //fornece funcionalidade de gerenciamento de dependência.
+    id 'java' //usando java.
 }
 
-repositories {
-    jcenter()
+repositories { //repositórios necessários para a execução.
+    jcenter() //jcenter é um repositório central de artefatos.
 }
 
-dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'mysql:mysql-connector-java'
-    implementation 'javax.servlet:jstl:1.2'
-    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-} 
+dependencies { //dependências necessárias para a exexução.
+    implementation 'org.springframework.boot:spring-boot-starter-web' //puxa transitivamente todas as dependências relacionadas ao desenvolvimento web.
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' //starter para usar Spring Data JPA com Hibernate.
+    implementation 'mysql:mysql-connector-java' //driver Java Database Connectivity para MySQL.
+    implementation 'javax.servlet:jstl:1.2' //pacote Java de Classes e interfaces relacionadas ao componente principal da biblioteca de tags da JavaServer Pages Standard Tag Library (JSTL).
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper' //implementação do Tomcat.
+}
