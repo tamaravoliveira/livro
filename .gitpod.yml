@@ -1,5 +1,7 @@
-image: gitpod/workspace-mysql #carrega a imagem dentro do ambiente online do banco de dados.
+image: gitpod/workspace-mysql 
+#carrega a imagem dentro do ambiente online do banco de dados.
 
-tasks: #tarefa que cria a base de dados e cada inicialização (com usuário root).
+#tarefa que cria a base de dados e cada inicialização (com usuário root)
+tasks:
   - init: mysql -u root -e "CREATE DATABASE applicationdb"
 
