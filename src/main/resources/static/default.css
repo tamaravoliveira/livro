@@ -1,4 +1,4 @@
-body {
-    font-family: sans-serif;
-    color: darkslateblue;
+body { /*estilizando a tag de corpo da página.*/
+    font-family: sans-serif; /*definindo a fonte.*/
+    color: darkslateblue; /*definindo a cor.*/
 }
