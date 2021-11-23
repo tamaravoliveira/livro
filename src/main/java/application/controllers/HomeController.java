@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod; //import do Reques
 @Controller //anotação Controller.
 public class HomeController { //criando classe HomeController.
     @RequestMapping(method=RequestMethod.GET) //anotação com parâmetro que faz mapeamento o endereço do arquivo.
-    public String index() {
+    public String index() { //criando método index.
         return "home/index.jsp"; //retorna o arquivo index.jsp que se encontra na pasta home.
     }
 }
