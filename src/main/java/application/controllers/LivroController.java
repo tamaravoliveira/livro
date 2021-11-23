@@ -2,17 +2,17 @@ package application.controllers;//pacote responsável por fazer a intermediaçã
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Controller; //import controlador de tipo de anotação, normalmente usado em combinação com métodos de manipulador anotados com base na RequestMapping. 
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestMapping; //import do RequestMapping, é usado para mapear solicitações da web em métodos manipuladores em classes de manipulação de solicitações. 
+import org.springframework.web.bind.annotation.RequestMethod; //import do RequestMethod.
 import org.springframework.web.bind.annotation.RequestParam;
 
 import application.models.Livro;
 import application.repositories.LivroRepository;
 import org.springframework.ui.Model;
 
-@Controller
+@Controller //anotação Controller.
 @RequestMapping("/livro")
 public class LivroController {
     @Autowired
