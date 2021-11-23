@@ -7,6 +7,6 @@
         <link href="css/default.css" rel="stylesheet" /> <!--tag com link para a página de estilização-->
     </head> <!--finalizando o cabeçalho da página-->
     <body> <!--iniciando o corpo da página-->
-        <h1>Lista de Livros!!!</h1> <!--tag específica para textos-->
+        <h1>Lista de Livros!!!</h1> <!--tag específica para estilização de textos-->
     </body> <!--finalizando o corpo da página-->
 </html> <!--finalizando o HTML-->
